@@ -18,8 +18,7 @@ export default function StatsCard({ title, value, change, trend, description, ic
       <div className="flex items-start justify-between mb-4">
         <div className={cn('w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0', iconColors[color])}>
           <Icon className="w-5 h-5" />
-        </div>
-        <span className={cn(
+        </div>topNavbar        <span className={cn(
           'flex items-center gap-1 text-xs font-semibold px-2 py-1 rounded-full',
           isUp
             ? 'bg-emerald-50 dark:bg-emerald-500/10 text-emerald-700 dark:text-emerald-400'
