@@ -1,5 +1,7 @@
-import { redirect } from 'next/navigation'
-
 export default function SignupPage() {
-  redirect('/dashboard')
+  return (
+    <div>
+      Signup Page
+    </div>
+  );
 }

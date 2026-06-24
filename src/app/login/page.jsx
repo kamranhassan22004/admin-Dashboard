@@ -1,5 +1,7 @@
-import { redirect } from 'next/navigation'
-
 export default function LoginPage() {
-  redirect('/dashboard')
+  return (
+    <div className="flex min-h-screen items-center justify-center">
+      <h1>Login Page</h1>
+    </div>
+  );
 }
