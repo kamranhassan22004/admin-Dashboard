@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import DashboardHeader from '@/components/dashBoard/DashboardHeader'
+import DashboardHeader from '@/components/dashboard/DashboardHeader'
 import StatsCard from '@/components/dashboard/StatsCard'
 import RevenueChart from '@/components/dashboard/RevenueChart'
 import UserGrowthChart from '@/components/dashboard/UserGrowthChart'
